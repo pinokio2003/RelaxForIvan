@@ -29,8 +29,8 @@ struct ContentView: View {
                     y: motion != nil ? motion!.gravity.x : 0,
                     z: 0))
                 .shadow(color: .black.opacity(0.3), radius: 1,
-                        x: motion != nil ? CGFloat(-motion!.gravity.x * 3) : 0,
-                        y: motion != nil ? CGFloat(motion!.gravity.y * 3) : 0)
+                        x: motion != nil ? CGFloat(-motion!.gravity.y * 3) : 0,
+                        y: motion != nil ? CGFloat(motion!.gravity.x * 3) : 0)
             //New rectangle
             
             RoundedRectangle(cornerRadius: 20, style: .continuous)
@@ -42,9 +42,9 @@ struct ContentView: View {
                     x: motion != nil ? -motion!.gravity.y : 0,
                     y: motion != nil ? motion!.gravity.x : 0,
                     z: 0))
-                .shadow(color: .black.opacity(0.35), radius: 1,
-                        x: motion != nil ? CGFloat(-motion!.gravity.x * 5) : 0,
-                        y: motion != nil ? CGFloat(motion!.gravity.y * 5) : 0)
+                .shadow(color: .black.opacity(0.32), radius: 1,
+                        x: motion != nil ? CGFloat(-motion!.gravity.y * 3) : 0,
+                        y: motion != nil ? CGFloat(motion!.gravity.x * 3) : 0)
             
             //Enother one rectangle
             
@@ -57,9 +57,9 @@ struct ContentView: View {
                     x: motion != nil ? -motion!.gravity.y : 0,
                     y: motion != nil ? motion!.gravity.x : 0,
                     z: 0))
-                .shadow(color: .black.opacity(0.5), radius: 1,
-                        x: motion != nil ? CGFloat(-motion!.gravity.x * 7) : 0,
-                        y: motion != nil ? CGFloat(motion!.gravity.y * 7) : 0)
+                .shadow(color: .black.opacity(0.35), radius: 1,
+                        x: motion != nil ? CGFloat(-motion!.gravity.y * 3) : 0,
+                        y: motion != nil ? CGFloat(motion!.gravity.y * 3) : 0)
             
             //Image
             
@@ -75,9 +75,9 @@ struct ContentView: View {
                     x: motion != nil ? -motion!.gravity.y : 0,
                     y: motion != nil ? motion!.gravity.x : 0,
                     z: 0))
-                .shadow(color: .black.opacity(0.5), radius: 1,
-                        x: motion != nil ? CGFloat(-motion!.gravity.x * 9) : 0,
-                        y: motion != nil ? CGFloat(motion!.gravity.y * 9) : 0)
+                .shadow(color: .black.opacity(0.36), radius: 1,
+                        x: motion != nil ? CGFloat(-motion!.gravity.y * 3.3) : 0,
+                        y: motion != nil ? CGFloat(motion!.gravity.x * 3.3) : 0)
             
         }
         .onAppear {
