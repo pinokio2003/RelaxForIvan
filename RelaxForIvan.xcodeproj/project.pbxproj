@@ -12,6 +12,8 @@
 		A76583822AE3ECB500AF8DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A76583812AE3ECB500AF8DBB /* Assets.xcassets */; };
 		A76583862AE3ECB500AF8DBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A76583852AE3ECB500AF8DBB /* Preview Assets.xcassets */; };
 		A7C39D802AE45A32007FCF52 /* UkraineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C39D7F2AE45A32007FCF52 /* UkraineView.swift */; };
+		A7C39D822AE51E0D007FCF52 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C39D812AE51E0D007FCF52 /* Home.swift */; };
+		A7C39D842AE51E68007FCF52 /* CubeTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C39D832AE51E68007FCF52 /* CubeTransitionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		A76583852AE3ECB500AF8DBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A7C39D7E2AE41F21007FCF52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A7C39D7F2AE45A32007FCF52 /* UkraineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UkraineView.swift; sourceTree = "<group>"; };
+		A7C39D812AE51E0D007FCF52 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A7C39D832AE51E68007FCF52 /* CubeTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeTransitionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +59,15 @@
 		A765837C2AE3ECB400AF8DBB /* RelaxForIvan */ = {
 			isa = PBXGroup;
 			children = (
-				A7C39D7E2AE41F21007FCF52 /* Info.plist */,
+				A7C39D812AE51E0D007FCF52 /* Home.swift */,
 				A765837D2AE3ECB400AF8DBB /* RelaxForIvanApp.swift */,
 				A765837F2AE3ECB400AF8DBB /* ContentView.swift */,
+				A7C39D7F2AE45A32007FCF52 /* UkraineView.swift */,
 				A76583812AE3ECB500AF8DBB /* Assets.xcassets */,
 				A76583832AE3ECB500AF8DBB /* RelaxForIvan.entitlements */,
+				A7C39D7E2AE41F21007FCF52 /* Info.plist */,
 				A76583842AE3ECB500AF8DBB /* Preview Content */,
-				A7C39D7F2AE45A32007FCF52 /* UkraineView.swift */,
+				A7C39D832AE51E68007FCF52 /* CubeTransitionView.swift */,
 			);
 			path = RelaxForIvan;
 			sourceTree = "<group>";
@@ -146,7 +152,9 @@
 			files = (
 				A7C39D802AE45A32007FCF52 /* UkraineView.swift in Sources */,
 				A76583802AE3ECB400AF8DBB /* ContentView.swift in Sources */,
+				A7C39D822AE51E0D007FCF52 /* Home.swift in Sources */,
 				A765837E2AE3ECB400AF8DBB /* RelaxForIvanApp.swift in Sources */,
+				A7C39D842AE51E68007FCF52 /* CubeTransitionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

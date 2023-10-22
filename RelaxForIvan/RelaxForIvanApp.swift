@@ -11,7 +11,7 @@ import SwiftUI
 struct RelaxForIvanApp: App {
     var body: some Scene {
         WindowGroup {
-            UkraineView()
+            Home()
         }
     }
 }
